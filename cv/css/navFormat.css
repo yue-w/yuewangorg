@@ -1,0 +1,33 @@
+/*This file controls the navigation bar
+THe navigation bar is fixed at the top*/
+.topnav {
+  background: #6BDD44;
+  height: 60px;
+  left: 120px;
+  right: 0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  z-index: 99;
+  float:right;
+  
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
